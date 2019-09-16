@@ -1,0 +1,21 @@
+.home-container{
+  margin-left: 8%;
+  position: fixed;
+  height: 45vh;
+  margin-top: 10vw;
+  border: 1px solid #4CAF50;
+  background: white;
+  opacity: .8;
+  border-radius: 5px;
+  box-shadow: 5px 7px 3px grey;
+}
+.row{
+  text-align:center;
+}
+.nav-link{
+    background: none;
+    border: none;
+}
+.navbar-nav{
+  margin-right:60%;
+}

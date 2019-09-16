@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+  position:fixed;
+  width:100vw;
+  height:100vh;
+background:url(assets/pic/main-background.png);
+background-size: auto;
+background-repeat: no-repeat;
+background-position:fixed;
+
+}

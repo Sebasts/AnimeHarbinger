@@ -1,0 +1,35 @@
+<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Anime Harbinger</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+
+    <ul class="navbar-nav">
+     <!--   <li data-onsuccess="onSignIn" class="g-signin2 nav-items"><a class="nav-link"></a></li>
+        <li class="nav-items"><a href="#" onclick="signOut();">Sign out</a></li>
+        <li class="nav-items"><a class="nav-link">Sebastian</a></li> -->
+        <li class="nav-items">
+            <button class="nav-link" >Home</button>
+          </li>
+        <li class="nav-items">
+        <button class="nav-link" >Anime</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" >Store</button>
+      </li>
+      <li class="nav-items">
+          <button class="nav-link" >New</button>
+        </li>
+        <li class="nav-items">
+            <input class="nav-link" type="text" placeholder="Search"/>
+          </li>
+    </ul>
+  </div>
+</nav>
+<div class="row">
+  <div class="col-10 home-container">
+      <span>{{ title }} app is running!</span>
+  </div>
+</div>
+<router-outlet></router-outlet>
